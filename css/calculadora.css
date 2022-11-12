@@ -1,0 +1,93 @@
+/* damos estilos a los bloques y formularios */
+h1{
+    padding-left: 25px;
+    color: rgb(0, 242, 255);
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#bloque{
+    height: 400px;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#bloque form{
+    height: 100%;
+    width: 100%;
+    /* background-color:rgb(29, 176, 6)
+    background: rgb(0,255,16); */
+background-image: url(https://www.kibrispdr.org/data/1780/green-gif-54.gif);
+
+}
+
+/* diseño al la pantalla de la calculadora donde se vera los resultados */
+#bloque input[type=textfield]{
+    width: 294px;
+    height: 21%;
+    background-image:url(http://www.abcpedia.com/wp-content/uploads/2015/09/codigo-binario-ceros-y-unos.gif);
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: right;
+    border: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: default;
+    padding: 4px;
+    /* border-radius: 20px; */
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#bloque input[type=button], input[type=reset]{
+    width: 24%;
+    height: 19%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1;
+    border-radius: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gris{
+    background-color: rgb(116, 4, 112);
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 80px;
+    transition: all 1s ease;
+    
+
+}
+
+.gris:hover{
+
+    color: rgb(255, 0, 0) !important;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+    transition: all 0.2s ease;
+    
+}
+
+
+
+.naranja{
+    background-color: rgb(114, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+#bloque{
+    margin:auto;
+}
+
+#titulo{
+   margin-left: 550px;
+
+}
+
+body{
+    background-image: url(https://s1.best-wallpaper.net/wallpaper/m/1711/Abstract-background-smoke-glare_m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
